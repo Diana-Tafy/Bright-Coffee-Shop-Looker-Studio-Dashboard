@@ -15,9 +15,10 @@
 🛠️ Tech StackPlanning: 
 
 *Miro (Data Flow & Architecture).  
-*Data Processing: Databricks, Python (Pandas), and SQL.  
-*Database: Snowflake / Google BigQuery.  
-*Business Intelligence: Looker Studio.  Documentation: GitHub & Microsoft Excel. 
+*Data Processing: Databricks, and SQL.  
+*Database: Microsoft Excel.  
+*Business Intelligence: Looker Studio. 
+*Documentation: GitHub & Microsoft Excel. 
 
 🏗️ Data Architecture & ETL Pipeline
 
@@ -25,7 +26,7 @@
 *Transformation (The "Cleaning" Phase):Time Normalization: Converted ISO timestamps (e.g., 2026-03-19T07:06:11.000Z) into a clean HH:MM:SS format for better readability.  
 *Chronological Sorting: Created numeric mapping for months (month_numeric) and days (day_of_week_numeric) to override default alphabetical sorting in Looker Studio.  
 *Financial Calculation: Derived Total_Revenue using the formula: $unit\_price \times transaction\_qty$. 
-*Loading: The cleaned dataset (FIXED_TIME_COFFEE_SHOP_DATA.xlsx) was connected to Looker Studio for visualization.  
+*Loading: The cleaned dataset was connected to Looker Studio for visualization.  
 
 📊 Interactive Dashboard Highlights https://datastudio.google.com/s/oLtf-YIZXfY
 
@@ -43,4 +44,6 @@
 
 🚀 Strategic Recommendations
 
-*Targeted Marketing: Implement loyalty programs or "Happy Hour" discounts during slow afternoon time slots to level out daily revenue.  *Inventory Optimization: Increase stock levels for top-performing "Gourmet Brewed Coffee" during weekend shifts. 
+*Targeted Marketing: Implement loyalty programs or "Happy Hour" discounts during slow afternoon time slots to level out daily revenue.
+*Inventory Optimization: Increase stock levels for top-performing "Gourmet Brewed Coffee" during weekend shifts. 
+*Automation: Transition from manual Excel uploads to an automated daily reporting pipeline using the established Databricks-to-GitHub workflow.
