@@ -2,9 +2,9 @@
 
 📌 Project Overview
 
-*This project involves a comprehensive end-to-end data analysis of 149,116 transactional records from Bright Coffee Shop.
+##This project involves a comprehensive end-to-end data analysis of 149,116 transactional records from Bright Coffee Shop.
 
-*The objective was to provide actionable business insights for a new CEO to drive revenue growth and operational efficiency.  
+##The objective was to provide actionable business insights for a new CEO to drive revenue growth and operational efficiency.  
 
 🎯 Key Objectives
 *Identify high-revenue products and categories.  
@@ -13,6 +13,7 @@
 *Deliver a professional, interactive BI dashboard for executive reporting.  
 
 🛠️ Tech StackPlanning: 
+
 *Miro (Data Flow & Architecture).  
 *Data Processing: Databricks, Python (Pandas), and SQL.  
 *Database: Snowflake / Google BigQuery.  
@@ -27,6 +28,7 @@
 *Loading: The cleaned dataset (FIXED_TIME_COFFEE_SHOP_DATA.xlsx) was connected to Looker Studio for visualization.  
 
 📊 Interactive Dashboard Highlights https://datastudio.google.com/s/oLtf-YIZXfY
+
 #The Bright Coffee Project Dashboard features:
 
 *Total Revenue Scorecard: Real-time tracking of the $698,812.33 total revenue. 
