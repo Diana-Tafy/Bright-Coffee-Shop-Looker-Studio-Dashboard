@@ -2,6 +2,8 @@
 
 📌 Project Overview
 
+https://datastudio.google.com/s/s4JNWfST7T4
+
 ##This project involves a comprehensive end-to-end data analysis of 149,116 transactional records from Bright Coffee Shop.
 
 ##The objective was to provide actionable business insights for a new CEO to drive revenue growth and operational efficiency.  
